@@ -15,7 +15,8 @@ function Navbar() {
 
   return (
     <nav className="fixed top-2 w-full p-2 sm:w-full md:w-full  ">
-      <div className="container flex items-center justify-between rounded-lg bg-black py-3">
+      <div className="container mx-auto flex max-w-7xl items-center justify-between rounded-lg bg-black py-3 px-4">
+
         <div className="flex flex-shrink-0 items-center justify-between">
           <Image 
             className="mr-2 p-2"
@@ -80,3 +81,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
